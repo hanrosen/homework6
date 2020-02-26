@@ -24,7 +24,6 @@ function decreaseSpeed() {
 
 function increaseSpeed() {
 	video.playbackRate = video.playbackRate * 1.25;
-
 	console.log("Speed is " + video.playbackRate);
 } 
 

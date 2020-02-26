@@ -18,14 +18,20 @@
 	}
 
 	/*https://css-tricks.com/almanac/properties/c/content/*/
-	/*	I used free icons from freepik.com. They are attributed to Freepik. I then used Illustrator to resize the images myself.*/
+	/*	This website taught me how to use the ::before property and how to put the photo in as content: url();
+	*/
+	/*	I used free icons from flaticon.com. They are attributed to Google I added margins so the photos
+	arent right next to the text*/
 
 	.play::before {
 		content: url(images/play.png);
+		margin-right: 5px;
 	}
 
 	.pause::before{
 		content: url(images/pause.png);
+		margin-right: 5px;
+
 	}
 
 	/*Use CSS before property to display the image before the text in the buttons*/
